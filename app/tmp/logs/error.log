@@ -1,3 +1,43 @@
 2012-06-01 06:59:09 Error: [MissingControllerException] Controller class ImagesController could not be found.
 #0 C:\Program Files (x86)\Ampps\www\prisim\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-06-04 01:37:12 Error: [MissingControllerException] Controller class ProfsController could not be found.
+#0 C:\Program Files (x86)\Ampps\www\prisim\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-04 01:37:19 Error: [MissingControllerException] Controller class ProfController could not be found.
+#0 C:\Program Files (x86)\Ampps\www\prisim\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-04 01:39:03 Error: [MissingViewException] View file "C:\Program Files (x86)\Ampps\www\prisim\app\View\Profs\index.ctp" is missing.
+#0 C:\Program Files (x86)\Ampps\www\prisim\cakephp\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Program Files (x86)\Ampps\www\prisim\cakephp\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Program Files (x86)\Ampps\www\prisim\cakephp\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Program Files (x86)\Ampps\www\prisim\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ProfsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Program Files (x86)\Ampps\www\prisim\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-04 01:39:09 Error: [MissingControllerException] Controller class ProfController could not be found.
+#0 C:\Program Files (x86)\Ampps\www\prisim\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-04 01:40:37 Error: [MissingControllerException] Controller class ProfController could not be found.
+#0 C:\Program Files (x86)\Ampps\www\prisim\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-06-04 01:40:40 Error: [MissingViewException] View file "C:\Program Files (x86)\Ampps\www\prisim\app\View\Profs\index.ctp" is missing.
+#0 C:\Program Files (x86)\Ampps\www\prisim\cakephp\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Program Files (x86)\Ampps\www\prisim\cakephp\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Program Files (x86)\Ampps\www\prisim\cakephp\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Program Files (x86)\Ampps\www\prisim\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ProfsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Program Files (x86)\Ampps\www\prisim\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-04 01:41:54 Error: [MissingViewException] View file "C:\Program Files (x86)\Ampps\www\prisim\app\View\Profs\index.ctp" is missing.
+#0 C:\Program Files (x86)\Ampps\www\prisim\cakephp\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Program Files (x86)\Ampps\www\prisim\cakephp\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Program Files (x86)\Ampps\www\prisim\cakephp\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Program Files (x86)\Ampps\www\prisim\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ProfsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Program Files (x86)\Ampps\www\prisim\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-06-04 01:47:36 Error: [MissingViewException] View file "C:\Program Files (x86)\Ampps\www\prisim\app\View\Profs\register.ctp" is missing.
+#0 C:\Program Files (x86)\Ampps\www\prisim\cakephp\lib\Cake\View\View.php(462): View->_getViewFileName(NULL)
+#1 C:\Program Files (x86)\Ampps\www\prisim\cakephp\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 C:\Program Files (x86)\Ampps\www\prisim\cakephp\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 C:\Program Files (x86)\Ampps\www\prisim\cakephp\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(ProfsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Program Files (x86)\Ampps\www\prisim\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
