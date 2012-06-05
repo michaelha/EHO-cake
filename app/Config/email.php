@@ -44,13 +44,16 @@
  */
 class EmailConfig {
 
+  // dummy email account, problems sending email through gmail though...
   public $default = array(
-      'transport' => 'Mail',
-      'from' => 'you@localhost',
-          //'charset' => 'utf-8',
-          //'headerCharset' => 'utf-8',
+      'host' => 'ssl://smtp.gmail.com',
+      'port' => 465,
+      'username' => 'lolwat.d3@gmail.com', //example@gmail.com
+      'password' => 'hemoglobin1',
+      'transport' => 'Smtp',
+      'from' => array('lolwat.d3@gmail.com' => 'Name to be displayed in the Email'),
+      'log' => true
   );
-  
   public $smtp = array(
       'transport' => 'Smtp',
       'from' => array('site@localhost' => 'My Site'),

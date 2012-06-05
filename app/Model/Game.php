@@ -14,5 +14,11 @@ class Game extends AppModel {
           'foreignKey' => 'prof_id'
       )
   );
+  
+  public $hasMany = array(
+      'Group' => array(
+          'foreignKey' => 'game_id'
+      )
+  );
 }
 ?>

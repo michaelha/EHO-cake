@@ -38,9 +38,6 @@ class Prof extends AppModel {
       )
   );
   public $hasMany = array(
-      'Student' => array(
-          'foreignKey' => 'prof_id'
-      ),
       'Game' => array(
           'foreignKey' => 'prof_id'
       )

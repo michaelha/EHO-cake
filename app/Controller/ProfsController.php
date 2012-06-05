@@ -2,29 +2,9 @@
 
 class ProfsController extends AppController {
 
-  public $components = array(
-      'Session',
-      'Auth' => array(
-          'authenticate' => array(
-              'Form' => array(
-                  'userModel' => 'Prof',
-                  'fields' => array(
-                      'username' => 'email',
-                      'password' => 'password'
-                  )
-              )
-          ),
-          'loginAction' => array(
-              'controller' => 'profs',
-              'action' => 'login'
-          ),
-          'authError' => 'AUTH ERROR LOL'
-      )
-  );
-
   public function beforeFilter() {
     parent::beforeFilter();
-    $this->Auth->allow('register', 'login');
+    $this->Auth->allow('register', 'login', 'emailtest');
   }
 
   public function index() {
@@ -36,7 +16,6 @@ class ProfsController extends AppController {
     if (empty($this->request->data)) {
       // no data, just save form
     } else {
-      //TODO: check for duplicates
       //TODO: do we need password confirmation?
       //TODO: send email to mariano for activation, or admin panel activation?
       App::uses('String', 'Utility');
@@ -62,7 +41,16 @@ class ProfsController extends AppController {
   }
   
   public function logout() {
+    $this->Session->setFlash('logged out');
     $this->Auth->logout();
+  }
+  
+  public function emailtest() {
+    App::uses('CakeEmail', 'Network/Email');
+    $email = new CakeEmail('default');
+    $email->to('ebemunk@gmail.com');
+    $email->subject('subject');
+    $email->send('Plz baba');
   }
 
 }
